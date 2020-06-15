@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="357.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project1.melonPlayerController">
+	<children>
+	 
+		<Separator layoutX="1.0" layoutY="209.0" prefHeight="10.0" prefWidth="357.0" />
+		<Label layoutX="141.0" layoutY="96.0" text="제목" />
+		<Label layoutX="223.0" layoutY="96.0" text="아티스트" />
+		<Separator layoutX="1.0" layoutY="126.0" prefWidth="357.0" />
+		<ImageView fitHeight="56.0" fitWidth="301.0" layoutX="157.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="image/melon.png" />
+			</image>
+		</ImageView>
+		
+		<Separator layoutX="1.0" layoutY="305.0" prefWidth="357.0" />
+		<Separator layoutX="1.0" layoutY="397.0" prefWidth="357.0" />
+		<Separator layoutX="1.0" layoutY="82.0" prefWidth="357.0" />
+		<ImageView fitHeight="76.0" fitWidth="80.0" layoutX="14.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="image/iu1.jpg" />
+			</image>
+		</ImageView>
+		    <Label layoutX="229.0" layoutY="162.0" text="아이유" />
+		     <Label fx:id="s1" layoutX="138.0" layoutY="162.0" text="GoodDay" />
+		<Button fx:id="btn1" userData="image/iu1.jpg" layoutX="300.0" layoutY="158.0" mnemonicParsing="false" style="-fx-background-color: white;" text="재생" />
+
+		<ImageView fitHeight="76.0" fitWidth="80.0" layoutX="14.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="image/changmo.jpg" />
+			</image>
+		</ImageView>
+		<ImageView fitHeight="76.0" fitWidth="80.0" layoutX="14.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="image/billie.jpg" />
+			</image>
+			</ImageView>
+		<ImageView fitHeight="76.0" fitWidth="80.0" layoutX="14.0" layoutY="403.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="image/twice.png" />
+			</image>
+			</ImageView>						
+		<Separator layoutX="1.0" layoutY="492.0" prefWidth="357.0" />
+		
+  
+      <Label layoutX="235.0" layoutY="251.0" text="창모" />
+      <Label layoutX="215.0" layoutY="345.0" text="빌리아일리시" />
+      <Label layoutX="230.0" layoutY="434.0" text="Twice" />
+      
+     
+      <Label fx:id="s2" layoutX="138.0" layoutY="251.0" text="Meteor" />
+      <Label fx:id="s3" layoutX="138.0" layoutY="345.0" text="Bad Guy" />
+      <Label fx:id="s4" layoutX="115.0" layoutY="434.0" text="KNOCK KNOCK" />
+      
+      
+      <Button fx:id="btn2" userData="image/changmo.jpg" layoutX="300.0" layoutY="247.0" mnemonicParsing="false" style="-fx-background-color: white;" text="재생" />
+      <Button fx:id="btn3" userData="image/billie.jpg" layoutX="300.0" layoutY="341.0" mnemonicParsing="false" style="-fx-background-color: white;" text="재생" />
+      <Button fx:id="btn4" userData="image/twice.png" layoutX="300.0" layoutY="430.0" mnemonicParsing="false" style="-fx-background-color: white;" text="재생" />
+	
+	</children>
+</AnchorPane>

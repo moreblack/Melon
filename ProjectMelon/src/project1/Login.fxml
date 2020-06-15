@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.PasswordField?>
+
+<BorderPane prefHeight="207.0" prefWidth="427.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project1.LoginController">
+   <left>
+      <HBox prefHeight="291.0" prefWidth="144.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="215.0" fitWidth="233.0" layoutX="200" layoutY="200" pickOnBounds="true" preserveRatio="true">
+               <image><Image url="@../image/melon.png" /></image>        
+            </ImageView>    
+         </children>
+      </HBox>
+   </left>
+   <right>
+      <VBox prefHeight="226.0" prefWidth="194.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="txtUsername" prefHeight="25.0" prefWidth="192.0">
+               <VBox.margin>
+                  <Insets right="10.0" top="20.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="username">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <PasswordField fx:id="txtPassword">
+               <VBox.margin>
+                  <Insets right="10.0" top="20.0" />
+               </VBox.margin>
+            </PasswordField>
+            <Label text="password">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Label>
+            <Button fx:id="btnSignin" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="23.0" prefWidth="56.0" style="-fx-background-color: white;" text="Signin">
+               <VBox.margin>
+                  <Insets left="50.0" top="15.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="btnSignup" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="23.0" prefWidth="56.0" style="-fx-background-color: white;" text="Signup">
+               <VBox.margin>
+                  <Insets left="50.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </right>
+</BorderPane>
