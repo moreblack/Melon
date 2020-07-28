@@ -8,7 +8,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
 
-import com.yedam.common.ConnectionUtil;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -38,7 +37,7 @@ public class LoginController implements Initializable {
 	ResultSet resultSet = null;
 
 	public LoginController() {
-		con = ConnectionUtil.conDB();
+		con = ConnectionControl.conDB();
 	}
 
 	@Override
